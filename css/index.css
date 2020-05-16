@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 600px;
+    height: 150px;
+    background-color: beige;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+}
+
+#light {
+    width: 70%;
+    height: 98%;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#buttonLight {
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a#buttonNext {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    outline: none;
+    border-radius: 6px;
+    background: linear-gradient(rgb(134, 133, 131), rgb(161, 161, 160)) rgb(189, 187, 184);
+    transition: 0.2s;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+
+a#buttonNext:hover { background: linear-gradient(#969595, #7a7575) #4e4b4b; }
+a#buttonNext:active { background: linear-gradient(#727171, #b9b5b5) #ece9e9; }
+
+#lightRed {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+#lightYellow {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50px;
+}
+
+#lightGreen {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 50px;
+}
